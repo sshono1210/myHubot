@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d272d24-ad7c-4f63-a469-07cf9e2f798f" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,12 +116,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515135430949</updated>
-      <workItem from="1515135433867" duration="3338000" />
+      <workItem from="1515135433867" duration="3351000" />
     </task>
+    <task id="LOCAL-00001" summary="gitignore更新">
+      <created>1515141315994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515141315994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3338000" />
+    <option name="totallyTimeSpent" value="3351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="854" y="174" width="1992" height="1251" extended-state="0" />
@@ -178,6 +185,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
