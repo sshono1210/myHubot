@@ -14,12 +14,12 @@ time = require('time')
 module.exports = (robot) ->
 
     cronjob = new cronJob(
-      cronTime: "0 50 * * * *"    # 実行時間
+      cronTime: "0 53 * * * *"    # 実行時間
       start:    true                # すぐにcronのjobを実行するか
       timeZone: "Asia/Tokyo"        # タイムゾーン指定
       onTick: ->                    # 時間が来た時に実行する処理
         now = new time.Date()
-        jp = now.setTimezone("Asia/Tokyo")
+        jp = now.setTimezone("Japan/Tokyo")
 #        robot.send {room: "#myhubot"}, now.getHours()+"時"+now.getMinutes()+"分になりました〜！"
 #        robot.send {room: "#myhubot"}, now
         console.log(jp.getHours())
