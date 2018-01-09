@@ -9,15 +9,17 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 cronJob = require('cron').CronJob
+time = require('time')
 
 module.exports = (robot) ->
 
     cronjob = new cronJob(
-      cronTime: "0 0 * * * *"    # 実行時間
+      cronTime: "30 6 * * * *"    # 実行時間
       start:    true                # すぐにcronのjobを実行するか
       timeZone: "Asia/Tokyo"        # タイムゾーン指定
       onTick: ->                    # 時間が来た時に実行する処理
-        robot.send {room: "#myhubot"}, "正時です"
+        now = new time.Date()
+        robot.send {room: "#myhubot"}, now.getHours()+"時"+now.getMinutes()+"分になりました〜！"
     )
 
 # robot.hear /badger/i, (res) ->
