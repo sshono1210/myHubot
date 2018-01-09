@@ -19,7 +19,7 @@ module.exports = (robot) ->
       timeZone: "Asia/Tokyo"        # タイムゾーン指定
       onTick: ->                    # 時間が来た時に実行する処理
         now = new time.Date()
-        robot.send {room: "#myhubot"}, now.getHours()+"時"+now.getMinutes()+"分になりました〜！"
+        robot.send {room: "#myhubot"}, now.getHours()+"時になりました〜！"
     )
 
 # robot.hear /badger/i, (res) ->
